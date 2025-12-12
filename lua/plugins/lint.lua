@@ -14,6 +14,7 @@ return {
       make = { "checkmake" },
       cmake = { "cmakelint" },
       dockerfile = { "hadolint" },
+      markdown = { "markdownlint-cli2" },
       yaml = { "yamllint", "actionlint" },
     },
     linters = {
