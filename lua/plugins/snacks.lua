@@ -12,6 +12,8 @@ return {
           { section = "startup" },
         },
       },
+      bigfile = { enabled = true },
+      quickfile = { enabled = true },
     },
   },
 }
