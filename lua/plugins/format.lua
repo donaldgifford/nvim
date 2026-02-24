@@ -14,15 +14,22 @@ return {
         yaml = { "yamlfmt" },
         -- yaml = { "prettier" },
         helm = { "helm_ls" },
+        -- cmake = { "cmake_format" },
 
-        ["markdown"] = { "prettier", "markdownlint-cli2", "markdown-toc" },
+        -- ["markdown"] = { "prettier", "markdownlint-cli2", "markdown-toc" },
+        ["markdown"] = { "markdownlint-cli2", "prettier", "markdown-toc" },
         ["markdown.mdx"] = { "prettier", "markdownlint-cli2", "markdown-toc" },
         hcl = { "terragrunt_hclfmt", "packer_fmt" },
         terraform = { "terraform_fmt" },
         tf = { "terraform_fmt" },
         ["terraform-vars"] = { "terraform_fmt" },
+        toml = { "taplo" },
+        rust = { "rustfmt" },
       },
       formatters = {
+        yamlfmt = {
+          args = { "-" },
+        },
         golines = {
           prepend_args = { "-m", "120" },
         },

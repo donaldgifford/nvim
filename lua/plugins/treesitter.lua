@@ -27,6 +27,8 @@ return {
         "stylua",
         "shellcheck",
         "shfmt",
+        "rust",
+        "ron",
       })
     end,
   },

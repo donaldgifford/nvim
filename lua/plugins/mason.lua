@@ -39,6 +39,9 @@ return {
         "helm-ls",
         -- docker
         "hadolint",
+        -- rust
+        "bacon",
+        "bacon-ls",
       },
     },
   },

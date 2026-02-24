@@ -16,6 +16,7 @@ return {
       dockerfile = { "hadolint" },
       markdown = { "markdownlint-cli2" },
       yaml = { "yamllint", "actionlint" },
+      rust = { "clippy" },
     },
     linters = {
       actionlint = {
