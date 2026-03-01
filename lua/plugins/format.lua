@@ -15,7 +15,7 @@ return {
         -- yaml = { "prettier" },
         helm = { "helm_ls" },
         -- cmake = { "cmake_format" },
-
+        nix = { "nixfmt" },
         -- ["markdown"] = { "prettier", "markdownlint-cli2", "markdown-toc" },
         ["markdown"] = { "markdownlint-cli2", "prettier", "markdown-toc" },
         ["markdown.mdx"] = { "prettier", "markdownlint-cli2", "markdown-toc" },

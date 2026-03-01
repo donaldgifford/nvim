@@ -17,6 +17,7 @@ return {
       markdown = { "markdownlint-cli2" },
       yaml = { "yamllint", "actionlint" },
       rust = { "clippy" },
+      nix = { "statix" },
     },
     linters = {
       actionlint = {
